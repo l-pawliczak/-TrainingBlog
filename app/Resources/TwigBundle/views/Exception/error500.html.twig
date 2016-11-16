@@ -1,0 +1,9 @@
+{% extends "BlogBundle::base.html.twig" %}
+{% set hideSidebar = true %}
+{% block pageTitle %}Nieoczekiwany błąd{% endblock %}
+{% block contentTitle %}Nieoczekiwany błąd{% endblock %}
+{% block content %}
+    <div class="error-page">
+        <img src="{{ asset ('bundles/Blog/img/error500.png') }}" alt="error500">
+    </div>
+{% endblock %}
