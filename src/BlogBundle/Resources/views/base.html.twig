@@ -15,7 +15,9 @@
         {% stylesheets
         'bundles/Blog/css/normalize.css'
         'bundles/Blog/css/main.css'
-        filter ='cssrewrite' %}
+        filter ='cssrewrite'
+        output='assets/css/compiled.css' %}
+
         <link rel="stylesheet" href="{{ asset_url }}">
         {% endstylesheets %}
 
@@ -168,7 +170,7 @@
     {% javascripts
     '@BlogBundle/Resources/public/js/vendor/*'
     '@BlogBundle/Resources/public/js/*'
-    %}
+    output='assets/js/compiled.js' %}
 
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
