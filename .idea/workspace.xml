@@ -9,10 +9,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/BlogBundle/Resources/views/Post/index.html.twig" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/BlogBundle/Resources/views/Post/post.html.twig" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/BlogBundle/Resources/views/Post/tag.html.twig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BlogBundle/Entity/AbstractTaxonomy.php" afterPath="$PROJECT_DIR$/src/BlogBundle/Entity/AbstractTaxonomy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BlogBundle/Entity/Category.php" afterPath="$PROJECT_DIR$/src/BlogBundle/Entity/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BlogBundle/Entity/Post.php" afterPath="$PROJECT_DIR$/src/BlogBundle/Entity/Post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BlogBundle/Entity/Tag.php" afterPath="$PROJECT_DIR$/src/BlogBundle/Entity/Tag.php" />
     </list>
     <ignored path="blog.iws" />
@@ -39,7 +37,45 @@
         <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Post.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding>
+                <marker date="1479681735000" expanded="true" signature="183:5471" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="193:331" ph=" @var integer ..." />
+                <marker date="1479681735000" expanded="true" signature="359:464" ph=" @var string ..." />
+                <marker date="1479681735000" expanded="true" signature="495:586" ph=" @var string ..." />
+                <marker date="1479681735000" expanded="true" signature="616:727" ph=" @var string ..." />
+                <marker date="1479681735000" expanded="true" signature="770:850" ph=" @var string ..." />
+                <marker date="1479681735000" expanded="true" signature="884:977" ph=" @var string ..." />
+                <marker date="1479681735000" expanded="true" signature="1009:1097" ph=" @var string ..." />
+                <marker date="1479681735000" expanded="true" signature="1133:1224" ph=" @var string ..." />
+                <marker date="1479681735000" expanded="true" signature="1263:1517" ph=" @ORM\ManyToOne( ..." />
+                <marker date="1479681735000" expanded="true" signature="1552:1738" ph=" @ORM\ManyToMany( ..." />
+                <marker date="1479681735000" expanded="true" signature="1773:1823" ph=" Get id ..." />
+                <marker date="1479681735000" expanded="true" signature="1853:1891" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="1900:1978" ph=" Set title ..." />
+                <marker date="1479681735000" expanded="true" signature="2017:2083" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="2092:2144" ph=" Get title ..." />
+                <marker date="1479681735000" expanded="true" signature="2177:2218" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="2227:2303" ph=" Set slug ..." />
+                <marker date="1479681735000" expanded="true" signature="2340:2404" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="2413:2464" ph=" Get slug ..." />
+                <marker date="1479681735000" expanded="true" signature="2496:2536" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="2545:2627" ph=" Set content ..." />
+                <marker date="1479681735000" expanded="true" signature="2670:2740" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="2749:2803" ph=" Get content ..." />
+                <marker date="1479681735000" expanded="true" signature="2838:2881" ph="{...}" />
+                <marker date="1479681735000" expanded="true" signature="2890:2974" ph=" Set category ..." />
+                <marker date="1479681735000" expanded="true" signature="3019:3091" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,8 +84,8 @@
       <file leaf-file-name="AbstractTaxonomy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/AbstractTaxonomy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="960">
+              <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -58,18 +94,8 @@
       <file leaf-file-name="Tag.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Tag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="330">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -104,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/BlogBundle/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/src/BlogBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/BlogBundle/Entity/Post.php" />
+        <option value="$PROJECT_DIR$/src/BlogBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/BlogBundle/Entity/AbstractTaxonomy.php" />
         <option value="$PROJECT_DIR$/src/BlogBundle/Entity/Tag.php" />
       </list>
@@ -349,12 +375,12 @@
       <option name="presentableId" value="Default" />
       <updated>1479071996674</updated>
       <workItem from="1479071998004" duration="15105000" />
-      <workItem from="1479679741207" duration="1727000" />
+      <workItem from="1479679741207" duration="2302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16832000" />
+    <option name="totallyTimeSpent" value="17407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="811" extended-state="6" />
@@ -399,7 +425,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1479681735000" expanded="true" signature="183:5471" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="193:331" ph=" @var integer ..." />
+            <marker date="1479681735000" expanded="true" signature="359:464" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="495:586" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="616:727" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="770:850" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="884:977" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="1009:1097" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="1133:1224" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="1263:1517" ph=" @ORM\ManyToOne( ..." />
+            <marker date="1479681735000" expanded="true" signature="1552:1738" ph=" @ORM\ManyToMany( ..." />
+            <marker date="1479681735000" expanded="true" signature="1773:1823" ph=" Get id ..." />
+            <marker date="1479681735000" expanded="true" signature="1853:1891" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="1900:1978" ph=" Set title ..." />
+            <marker date="1479681735000" expanded="true" signature="2017:2083" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2092:2144" ph=" Get title ..." />
+            <marker date="1479681735000" expanded="true" signature="2177:2218" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2227:2303" ph=" Set slug ..." />
+            <marker date="1479681735000" expanded="true" signature="2340:2404" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2413:2464" ph=" Get slug ..." />
+            <marker date="1479681735000" expanded="true" signature="2496:2536" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2545:2627" ph=" Set content ..." />
+            <marker date="1479681735000" expanded="true" signature="2670:2740" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2749:2803" ph=" Get content ..." />
+            <marker date="1479681735000" expanded="true" signature="2838:2881" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2890:2974" ph=" Set category ..." />
+            <marker date="1479681735000" expanded="true" signature="3019:3091" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,35 +685,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/AbstractTaxonomy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <marker date="1479681735000" expanded="true" signature="183:5471" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="193:331" ph=" @var integer ..." />
+            <marker date="1479681735000" expanded="true" signature="359:464" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="495:586" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="616:727" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="770:850" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="884:977" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="1009:1097" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="1133:1224" ph=" @var string ..." />
+            <marker date="1479681735000" expanded="true" signature="1263:1517" ph=" @ORM\ManyToOne( ..." />
+            <marker date="1479681735000" expanded="true" signature="1552:1738" ph=" @ORM\ManyToMany( ..." />
+            <marker date="1479681735000" expanded="true" signature="1773:1823" ph=" Get id ..." />
+            <marker date="1479681735000" expanded="true" signature="1853:1891" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="1900:1978" ph=" Set title ..." />
+            <marker date="1479681735000" expanded="true" signature="2017:2083" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2092:2144" ph=" Get title ..." />
+            <marker date="1479681735000" expanded="true" signature="2177:2218" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2227:2303" ph=" Set slug ..." />
+            <marker date="1479681735000" expanded="true" signature="2340:2404" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2413:2464" ph=" Get slug ..." />
+            <marker date="1479681735000" expanded="true" signature="2496:2536" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2545:2627" ph=" Set content ..." />
+            <marker date="1479681735000" expanded="true" signature="2670:2740" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2749:2803" ph=" Get content ..." />
+            <marker date="1479681735000" expanded="true" signature="2838:2881" ph="{...}" />
+            <marker date="1479681735000" expanded="true" signature="2890:2974" ph=" Set category ..." />
+            <marker date="1479681735000" expanded="true" signature="3019:3091" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,6 +725,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/AbstractTaxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlogBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
