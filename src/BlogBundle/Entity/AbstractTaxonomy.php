@@ -9,7 +9,8 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @ORM\MappedSuperclass
  */
-abstract class AbstractTaxonomy {
+abstract class AbstractTaxonomy
+{
 
     /**
      * @var integer
@@ -23,16 +24,16 @@ abstract class AbstractTaxonomy {
     /**
      * @var string
      *
-     * @ORM\Column(name="name", type="string", length=120, uniqe=true)
+     * @ORM\Column(type="string", length=120, unique=true)
      */
     private $name;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="slug", type="string", length=120, uniqe=true)
+     * @ORM\Column(type="string", length=120, unique=true)
      */
     private $slug;
 
-    private $posts;
+    protected $posts;
 }

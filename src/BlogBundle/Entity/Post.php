@@ -24,7 +24,7 @@ class Post
     /**
      * @var string
      *
-     * @ORM\Column(name="title", type="string", length=100, uniqe=true)
+     * @ORM\Column(name="title", type="string", length=100, unique=true)
      */
     private $title;
 
@@ -72,9 +72,32 @@ class Post
      */
     private $publishedDate;
 
+    /**
+     * @ORM\ManyToOne(
+     *     targetEntity = "Category",
+     *     inversedBy = "posts"
+     * )
+     *
+     * @ORM\JoinColumn(
+     *     name = "category_id",
+     *     referencedColumnName = "id",
+     *     onDelete = "SET NULL"
+     * )
+     */
 
     private $category;
 
+    /**
+     * @ORM\ManyToMany(
+     *     targetEntity = "Tag",
+     *     inversedBy = "posts"
+     * )
+     *
+     * @ORM\JoinTable(
+     *     name ="blog_posts_tags"
+     * )
+     * 
+     */
     private $tags;
 
     
